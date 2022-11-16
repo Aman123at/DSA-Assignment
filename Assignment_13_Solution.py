@@ -172,7 +172,8 @@ def postOrderFromPreAndInOrder(inOrd,preOrd,n):
     print(str(preOrd[0])+" ",end=' ')
 
 inorder = [10,20,40,50,30,60,70]
-preorder = [40,20,50,10,60,30,70]
+inorder = ["D","I","A","B","C","E","G","H","F"]
+preorder = ["C","D","B","I","A","E","F","G","H"]
 
 postOrderFromPreAndInOrder(inorder,preorder,len(inorder))
 
